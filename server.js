@@ -20,7 +20,7 @@ const _app_folder = __dirname + '/dist' ;
 
 app.use(express.static(__dirname + '/dist' ));
 
-var table_name="tree2";
+var table_name="trees3";
 
 app.get("/api/data",function(req,res)
 {
